@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ANY Wallet</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="repassword">Retype Password:</string>
+    <string name="alreadyaccnt">Already have an account?</string>
+    <string name="submit">Submit</string>
+    <string name="noaccnt">Don\'t have an account?</string>
+    <string name="balance">Enter available balance:</string>
+    <string name="ok">Ok</string>
+    <string name="rupee">\u20B9</string>
+    <string name="history">History</string>
+    <string name="spent">Spent</string>
+    <string name="saved">Saved</string>
+    <string name="loanamount">Enter Loan Amount</string>
+    <string name="rate">Enter Interest Rate</string>
+    <string name="noyears">Enter Number of Years</string>
+    <string name="logout">Logout</string>
+</resources>

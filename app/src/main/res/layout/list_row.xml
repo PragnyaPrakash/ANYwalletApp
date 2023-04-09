@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round1"
+    android:backgroundTint="@color/white"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_list"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:src="@color/white" />
+
+    <TextView
+        android:id="@+id/sign_list"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/img_list"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="-"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/rupee_list"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/sign_list"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/rupee"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/text_list"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/rupee_list"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="1000"
+        android:textColor="@android:color/holo_red_dark" />
+
+</RelativeLayout>
